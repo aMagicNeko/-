@@ -7,7 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE67A5D7262FCB4900AE8A23 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE67A5D6262FCB4900AE8A23 /* main.cpp */; };
+		6A0475D026BA6A670026C5DC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0475CF26BA6A670026C5DC /* libz.tbd */; };
+		6A0475D226BA6A700026C5DC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0475D126BA6A700026C5DC /* libc++.tbd */; };
+		6A0475D426BA6A7A0026C5DC /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0475D326BA6A7A0026C5DC /* libresolv.tbd */; };
+		6A0475D626BA6A820026C5DC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0475D526BA6A820026C5DC /* libsqlite3.tbd */; };
+		6A0475D826BA6A8A0026C5DC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0475D726BA6A8A0026C5DC /* Accelerate.framework */; };
+		6A0475DA26BA6A920026C5DC /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0475D926BA6A920026C5DC /* OpenAL.framework */; };
+		6A0475DC26BA725A0026C5DC /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0475DB26BA725A0026C5DC /* libc++.1.tbd */; };
+		6A0475DE26BA72670026C5DC /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0475DD26BA72670026C5DC /* libc++abi.tbd */; };
+		6A0475E026BA726B0026C5DC /* libkmodc++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0475DF26BA726B0026C5DC /* libkmodc++.a */; };
+		6A0EB00C26E85AB40033FB58 /* printing neatly.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EB00B26E85AB40033FB58 /* printing neatly.cpp */; };
+		6A0EB00E26E8A3980033FB58 /* edit distance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A0EB00D26E8A3980033FB58 /* edit distance.cpp */; };
+		6A1BD64B26C1647700EEDFE8 /* Longest_monotonically_increasing_subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A1BD64A26C1647700EEDFE8 /* Longest_monotonically_increasing_subarray.cpp */; };
+		6A1C1C0C26C00D6E000FFFA3 /* Longest_common_subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C1C0B26C00D6E000FFFA3 /* Longest_common_subarray.cpp */; };
+		6A330397269EB33500B75885 /* Binary_search_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A330396269EB33500B75885 /* Binary_search_tree.cpp */; };
+		6A496A5626B12DBA0033409A /* order_statistic_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A496A5526B12DBA0033409A /* order_statistic_tree.cpp */; };
+		6A63968826B92186003E4D3D /* Interval_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A63968726B92186003E4D3D /* Interval_tree.cpp */; };
+		6A656E6826CAA64C0051820A /* Longest palindrome subsequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A656E6726CAA64C0051820A /* Longest palindrome subsequence.cpp */; };
+		6A6EB13B26C4030E00C68B6A /* Optimal_binary_search_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A6EB13A26C4030E00C68B6A /* Optimal_binary_search_tree.cpp */; };
+		6AFF709926A933AC00FF99CA /* Redblack_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6AFF709826A933AC00FF99CA /* Redblack_tree.cpp */; };
+		AE278940266FB21F0007DF7D /* Find_maximum_subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE27893F266FB21F0007DF7D /* Find_maximum_subarray.cpp */; };
+		AE7B9043267887A600CB5A3C /* Order_statistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7B9042267887A600CB5A3C /* Order_statistics.cpp */; };
+		AE7B90492678C16700CB5A3C /* Elementary_data_structures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE7B90472678C16700CB5A3C /* Elementary_data_structures.cpp */; };
+		AE8432642676508900174346 /* Linear_time_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE8432632676508900174346 /* Linear_time_sort.cpp */; };
+		AE9AD9D6266B4C2C00C67950 /* Binary_add.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE9AD9D5266B4C2C00C67950 /* Binary_add.cpp */; };
+		AE9AD9DC266B56A800C67950 /* insertion_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE9AD9DB266B56A800C67950 /* insertion_sort.cpp */; };
+		AE9AF3662672078000C0B9A1 /* Heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE9AF3652672078000C0B9A1 /* Heap.cpp */; };
+		AEA693A626738D3A00373C1B /* Quicksort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEA693A526738D3A00373C1B /* Quicksort.cpp */; };
+		AEE7A765266BA25A007D9A69 /* Merge_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AEE7A764266BA25A007D9A69 /* Merge_sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +50,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A0475CF26BA6A670026C5DC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6A0475D126BA6A700026C5DC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		6A0475D326BA6A7A0026C5DC /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		6A0475D526BA6A820026C5DC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6A0475D726BA6A8A0026C5DC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6A0475D926BA6A920026C5DC /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		6A0475DB26BA725A0026C5DC /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		6A0475DD26BA72670026C5DC /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		6A0475DF26BA726B0026C5DC /* libkmodc++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libkmodc++.a"; path = "usr/lib/libkmodc++.a"; sourceTree = SDKROOT; };
+		6A0EB00B26E85AB40033FB58 /* printing neatly.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "printing neatly.cpp"; sourceTree = "<group>"; };
+		6A0EB00D26E8A3980033FB58 /* edit distance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "edit distance.cpp"; sourceTree = "<group>"; };
+		6A1BD64A26C1647700EEDFE8 /* Longest_monotonically_increasing_subarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Longest_monotonically_increasing_subarray.cpp; sourceTree = "<group>"; };
+		6A1C1C0B26C00D6E000FFFA3 /* Longest_common_subarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Longest_common_subarray.cpp; sourceTree = "<group>"; };
+		6A330396269EB33500B75885 /* Binary_search_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Binary_search_tree.cpp; sourceTree = "<group>"; };
+		6A496A5526B12DBA0033409A /* order_statistic_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = order_statistic_tree.cpp; sourceTree = "<group>"; };
+		6A63968726B92186003E4D3D /* Interval_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Interval_tree.cpp; sourceTree = "<group>"; };
+		6A656E6726CAA64C0051820A /* Longest palindrome subsequence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Longest palindrome subsequence.cpp"; sourceTree = "<group>"; };
+		6A6EB13A26C4030E00C68B6A /* Optimal_binary_search_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Optimal_binary_search_tree.cpp; sourceTree = "<group>"; };
+		6AFF709826A933AC00FF99CA /* Redblack_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Redblack_tree.cpp; sourceTree = "<group>"; };
+		AE27893F266FB21F0007DF7D /* Find_maximum_subarray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Find_maximum_subarray.cpp; sourceTree = "<group>"; };
 		AE67A5D3262FCB4900AE8A23 /* 算法导论 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "算法导论"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE67A5D6262FCB4900AE8A23 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AE67A5E6262FCED500AE8A23 /* head.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = head.hpp; sourceTree = "<group>"; };
+		AE7B9042267887A600CB5A3C /* Order_statistics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Order_statistics.cpp; sourceTree = "<group>"; };
+		AE7B90472678C16700CB5A3C /* Elementary_data_structures.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Elementary_data_structures.cpp; sourceTree = "<group>"; };
+		AE8432632676508900174346 /* Linear_time_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Linear_time_sort.cpp; sourceTree = "<group>"; };
+		AE9AD9D5266B4C2C00C67950 /* Binary_add.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Binary_add.cpp; sourceTree = "<group>"; };
+		AE9AD9DB266B56A800C67950 /* insertion_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = insertion_sort.cpp; sourceTree = "<group>"; };
+		AE9AF3652672078000C0B9A1 /* Heap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Heap.cpp; sourceTree = "<group>"; };
+		AEA693A526738D3A00373C1B /* Quicksort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Quicksort.cpp; sourceTree = "<group>"; };
+		AEE7A764266BA25A007D9A69 /* Merge_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Merge_sort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +87,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0475E026BA726B0026C5DC /* libkmodc++.a in Frameworks */,
+				6A0475DE26BA72670026C5DC /* libc++abi.tbd in Frameworks */,
+				6A0475D226BA6A700026C5DC /* libc++.tbd in Frameworks */,
+				6A0475DC26BA725A0026C5DC /* libc++.1.tbd in Frameworks */,
+				6A0475DA26BA6A920026C5DC /* OpenAL.framework in Frameworks */,
+				6A0475D826BA6A8A0026C5DC /* Accelerate.framework in Frameworks */,
+				6A0475D626BA6A820026C5DC /* libsqlite3.tbd in Frameworks */,
+				6A0475D426BA6A7A0026C5DC /* libresolv.tbd in Frameworks */,
+				6A0475D026BA6A670026C5DC /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A0475CE26BA6A670026C5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A0475DF26BA726B0026C5DC /* libkmodc++.a */,
+				6A0475DD26BA72670026C5DC /* libc++abi.tbd */,
+				6A0475DB26BA725A0026C5DC /* libc++.1.tbd */,
+				6A0475D926BA6A920026C5DC /* OpenAL.framework */,
+				6A0475D726BA6A8A0026C5DC /* Accelerate.framework */,
+				6A0475D526BA6A820026C5DC /* libsqlite3.tbd */,
+				6A0475D326BA6A7A0026C5DC /* libresolv.tbd */,
+				6A0475D126BA6A700026C5DC /* libc++.tbd */,
+				6A0475CF26BA6A670026C5DC /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A1C1C0A26C00D25000FFFA3 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				6A1C1C0B26C00D6E000FFFA3 /* Longest_common_subarray.cpp */,
+				6A1BD64A26C1647700EEDFE8 /* Longest_monotonically_increasing_subarray.cpp */,
+				6A6EB13A26C4030E00C68B6A /* Optimal_binary_search_tree.cpp */,
+				6A656E6726CAA64C0051820A /* Longest palindrome subsequence.cpp */,
+				6A0EB00B26E85AB40033FB58 /* printing neatly.cpp */,
+				6A0EB00D26E8A3980033FB58 /* edit distance.cpp */,
+			);
+			name = 15;
+			sourceTree = "<group>";
+		};
+		6A330395269EB2DF00B75885 /* 12 */ = {
+			isa = PBXGroup;
+			children = (
+				6A330396269EB33500B75885 /* Binary_search_tree.cpp */,
+			);
+			path = 12;
+			sourceTree = "<group>";
+		};
+		6A496A5426B12D660033409A /* 14 */ = {
+			isa = PBXGroup;
+			children = (
+				6A496A5526B12DBA0033409A /* order_statistic_tree.cpp */,
+				6A63968726B92186003E4D3D /* Interval_tree.cpp */,
+			);
+			path = 14;
+			sourceTree = "<group>";
+		};
+		6AFF709726A9338B00FF99CA /* 13 */ = {
+			isa = PBXGroup;
+			children = (
+				6AFF709826A933AC00FF99CA /* Redblack_tree.cpp */,
+			);
+			name = 13;
+			sourceTree = "<group>";
+		};
 		AE67A5CA262FCB4900AE8A23 = {
 			isa = PBXGroup;
 			children = (
-				AE67A5D5262FCB4900AE8A23 /* 算法导论 */,
 				AE67A5D4262FCB4900AE8A23 /* Products */,
+				AE67A5D5262FCB4900AE8A23 /* 算法导论 */,
+				6A0475CE26BA6A670026C5DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +176,78 @@
 		AE67A5D5262FCB4900AE8A23 /* 算法导论 */ = {
 			isa = PBXGroup;
 			children = (
-				AE67A5D6262FCB4900AE8A23 /* main.cpp */,
+				6A1C1C0A26C00D25000FFFA3 /* 15 */,
+				6A496A5426B12D660033409A /* 14 */,
+				6AFF709726A9338B00FF99CA /* 13 */,
+				6A330395269EB2DF00B75885 /* 12 */,
+				AE7B90462678C12100CB5A3C /* 10 */,
+				AE7B90412678876000CB5A3C /* 9 */,
+				AE8432622676505C00174346 /* 8 */,
+				AEA693A426738D1C00373C1B /* 7 */,
+				AE9AF3642672074C00C0B9A1 /* 6 */,
+				AEB622E42670644200B85C49 /* 3 */,
+				AE67A5DE262FCC9E00AE8A23 /* 2 */,
+				AE67A5E6262FCED500AE8A23 /* head.hpp */,
 			);
 			path = "算法导论";
+			sourceTree = "<group>";
+		};
+		AE67A5DE262FCC9E00AE8A23 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				AE9AD9D5266B4C2C00C67950 /* Binary_add.cpp */,
+				AE9AD9DB266B56A800C67950 /* insertion_sort.cpp */,
+				AEE7A764266BA25A007D9A69 /* Merge_sort.cpp */,
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		AE7B90412678876000CB5A3C /* 9 */ = {
+			isa = PBXGroup;
+			children = (
+				AE7B9042267887A600CB5A3C /* Order_statistics.cpp */,
+			);
+			path = 9;
+			sourceTree = "<group>";
+		};
+		AE7B90462678C12100CB5A3C /* 10 */ = {
+			isa = PBXGroup;
+			children = (
+				AE7B90472678C16700CB5A3C /* Elementary_data_structures.cpp */,
+			);
+			name = 10;
+			sourceTree = "<group>";
+		};
+		AE8432622676505C00174346 /* 8 */ = {
+			isa = PBXGroup;
+			children = (
+				AE8432632676508900174346 /* Linear_time_sort.cpp */,
+			);
+			name = 8;
+			sourceTree = "<group>";
+		};
+		AE9AF3642672074C00C0B9A1 /* 6 */ = {
+			isa = PBXGroup;
+			children = (
+				AE9AF3652672078000C0B9A1 /* Heap.cpp */,
+			);
+			name = 6;
+			sourceTree = "<group>";
+		};
+		AEA693A426738D1C00373C1B /* 7 */ = {
+			isa = PBXGroup;
+			children = (
+				AEA693A526738D3A00373C1B /* Quicksort.cpp */,
+			);
+			path = 7;
+			sourceTree = "<group>";
+		};
+		AEB622E42670644200B85C49 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				AE27893F266FB21F0007DF7D /* Find_maximum_subarray.cpp */,
+			);
+			name = 3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +306,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE67A5D7262FCB4900AE8A23 /* main.cpp in Sources */,
+				6A63968826B92186003E4D3D /* Interval_tree.cpp in Sources */,
+				6A330397269EB33500B75885 /* Binary_search_tree.cpp in Sources */,
+				AE278940266FB21F0007DF7D /* Find_maximum_subarray.cpp in Sources */,
+				AE9AD9DC266B56A800C67950 /* insertion_sort.cpp in Sources */,
+				6A0EB00E26E8A3980033FB58 /* edit distance.cpp in Sources */,
+				AE9AD9D6266B4C2C00C67950 /* Binary_add.cpp in Sources */,
+				AE7B90492678C16700CB5A3C /* Elementary_data_structures.cpp in Sources */,
+				AE7B9043267887A600CB5A3C /* Order_statistics.cpp in Sources */,
+				6A1BD64B26C1647700EEDFE8 /* Longest_monotonically_increasing_subarray.cpp in Sources */,
+				6AFF709926A933AC00FF99CA /* Redblack_tree.cpp in Sources */,
+				6A1C1C0C26C00D6E000FFFA3 /* Longest_common_subarray.cpp in Sources */,
+				6A656E6826CAA64C0051820A /* Longest palindrome subsequence.cpp in Sources */,
+				AEE7A765266BA25A007D9A69 /* Merge_sort.cpp in Sources */,
+				AE8432642676508900174346 /* Linear_time_sort.cpp in Sources */,
+				AE9AF3662672078000C0B9A1 /* Heap.cpp in Sources */,
+				6A6EB13B26C4030E00C68B6A /* Optimal_binary_search_tree.cpp in Sources */,
+				AEA693A626738D3A00373C1B /* Quicksort.cpp in Sources */,
+				6A496A5626B12DBA0033409A /* order_statistic_tree.cpp in Sources */,
+				6A0EB00C26E85AB40033FB58 /* printing neatly.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
